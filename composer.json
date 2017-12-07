@@ -18,7 +18,7 @@
         }
     ],
     "post-package-install": [
-        "npm install"
+        "yarn install --no-bin-links"
     ],
     "autoload": {
         "psr-4": {
